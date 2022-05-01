@@ -115,6 +115,24 @@ section {
   color: var(--color-red);
   margin-bottom: 0px;
 }
+.flex-2{
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 768px) { 
+  .header h1{
+    font-size: 16px;
+  }
+  .break {
+    flex-basis: 100%;
+    height: 0;
+  }
+  .header-social{
+    text-align: center;
+    width: 100%;
+  }
+ 
+ }
 .header.sticked {
   height: 70px;
 }
@@ -1405,3 +1423,20 @@ section {
   background-color: var(--color-red);
   color: #ffffff;
 }
+
+@media (max-width: 768px) { 
+
+  .header .logo img {
+    max-height: 80px;
+    margin-right: 6px;
+  }
+  .header.fixed-top.sticked .logo img{
+    max-height: 40px;
+    margin-right: 6px;
+  }
+  
+  .index-nav-item{
+    flex-basis: 100%;
+    margin-top: 10px;
+  }
+ }
