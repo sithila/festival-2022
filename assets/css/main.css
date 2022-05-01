@@ -1400,3 +1400,8 @@ section {
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
+
+.bg-red{
+  background-color: var(--color-red);
+  color: #ffffff;
+}
